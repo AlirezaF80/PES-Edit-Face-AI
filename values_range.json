@@ -1,0 +1,262 @@
+{
+  "SkinColour": [
+    1,
+    6
+  ],
+  "HeadLength": [
+    -7,
+    7
+  ],
+  "HeadWidth": [
+    -7,
+    7
+  ],
+  "HeadDepth": [
+    -7,
+    7
+  ],
+  "FaceHeight": [
+    -7,
+    7
+  ],
+  "FaceSize": [
+    -7,
+    7
+  ],
+  "UpperEyelidType": [
+    1,
+    8
+  ],
+  "BottomEyelidType": [
+    1,
+    7
+  ],
+  "EyeHeight": [
+    -7,
+    7
+  ],
+  "HorizontalEyePosition": [
+    -7,
+    7
+  ],
+  "IrisColour": [
+    1,
+    11
+  ],
+  "PupilSize": [
+    -7,
+    7
+  ],
+  "UpperEyelidHt.(Inner)": [
+    -7,
+    7
+  ],
+  "UpperEyelidWd.(Inner)": [
+    -7,
+    7
+  ],
+  "UpperEyelidHt.(Outer)": [
+    -7,
+    7
+  ],
+  "UpperEyelidWd.(Outer)": [
+    -7,
+    7
+  ],
+  "InnerEyeHeight": [
+    -7,
+    7
+  ],
+  "InnerEyePosition": [
+    -7,
+    7
+  ],
+  "EyeCornerHeight": [
+    -7,
+    7
+  ],
+  "OuterEyePosition": [
+    -7,
+    7
+  ],
+  "BottomEyelidHeight": [
+    -7,
+    7
+  ],
+  "EyeDepth": [
+    -7,
+    7
+  ],
+  "Forehead": [
+    1,
+    7
+  ],
+  "EyebrowType": [
+    1,
+    8
+  ],
+  "EyebrowThickness": [
+    0,
+    2
+  ],
+  "EyebrowStyle": [
+    0,
+    2
+  ],
+  "EyebrowDensity": [
+    0,
+    3
+  ],
+  "EyebrowColourR": [
+    0,
+    33
+  ],
+  "EyebrowColourG": [
+    0,
+    28
+  ],
+  "EyebrowColourB": [
+    0,
+    21
+  ],
+  "InnerEyebrowHeight": [
+    -7,
+    7
+  ],
+  "BrowWidth": [
+    -7,
+    7
+  ],
+  "OuterEdyebrowHeight": [
+    -7,
+    7
+  ],
+  "TempleWidth": [
+    -7,
+    7
+  ],
+  "EyebrowDepth": [
+    -7,
+    7
+  ],
+  "NoseType": [
+    1,
+    8
+  ],
+  "LaughterLines": [
+    1,
+    5
+  ],
+  "NoseHeight": [
+    -7,
+    7
+  ],
+  "NostrilWidth": [
+    -7,
+    7
+  ],
+  "NoseWidth": [
+    -7,
+    7
+  ],
+  "NoseTipDepth": [
+    -7,
+    7
+  ],
+  "NoseDepth": [
+    -7,
+    7
+  ],
+  "UpperLipType": [
+    1,
+    5
+  ],
+  "LowerLipType": [
+    1,
+    5
+  ],
+  "MouthPosition": [
+    -7,
+    7
+  ],
+  "LipSize": [
+    -7,
+    7
+  ],
+  "LipWidth": [
+    -7,
+    7
+  ],
+  "MouthCornerHeight": [
+    -7,
+    7
+  ],
+  "MouthDepth": [
+    -7,
+    7
+  ],
+  "FacialHairType": [
+    0,
+    19
+  ],
+  "FacialHairColourR": [
+    0,
+    33
+  ],
+  "FacialHairColourG": [
+    0,
+    28
+  ],
+  "FacialHairColourB": [
+    0,
+    21
+  ],
+  "Thickness": [
+    0,
+    3
+  ],
+  "CheekType": [
+    1,
+    6
+  ],
+  "NeckLineType": [
+    1,
+    4
+  ],
+  "Cheekbones": [
+    -7,
+    7
+  ],
+  "ChinHeight": [
+    -7,
+    7
+  ],
+  "ChinWidth": [
+    -7,
+    7
+  ],
+  "JawHeight": [
+    -7,
+    7
+  ],
+  "Jawline": [
+    -7,
+    7
+  ],
+  "ChinDepth": [
+    -7,
+    7
+  ],
+  "EarLength": [
+    -7,
+    7
+  ],
+  "EarWidth": [
+    -7,
+    7
+  ],
+  "EarAngle\n": [
+    -7,
+    7
+  ]
+}
