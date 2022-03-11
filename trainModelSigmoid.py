@@ -16,7 +16,7 @@ def load_json(filename):
 csv_file = extract_csv('data-cleaned.csv')
 appearances = {line[0]: [int(i) for i in line[4:]] for line in csv_file[1:]}
 appearances['Id'] = csv_file[0][4:]
-model_save_path = 'modelNew.h5'
+model_save_path = 'modelSigmoid.h5'
 values_range = load_json('values_range.json')
 
 # out_items = ['SkinColour', 'UpperEyelidType', 'BottomEyelidType', 'EyeHeight']

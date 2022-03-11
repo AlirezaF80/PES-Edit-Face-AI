@@ -18,7 +18,7 @@ def load_json(filename):
 
 
 def scale_from_sigmoid(val, min_val, max_val):
-    return (val * (max_val - min_val)) + min_val
+    return val * (max_val - min_val) + min_val
 
 
 values_range = load_json('values_range.json')
@@ -29,8 +29,9 @@ csv_file = extract_csv('data-cleaned.csv')
 appearance_items = csv_file[0][4:]
 
 if __name__ == '__main__':
-    model = load_model('modelNew.h5')
-    encoding = [face_encoder.encode_face(r"D:\Projects\Pycharm Projects\PES-Edit-Face-Maker\results\hardani.jpg")]
+    encoding = [
+        face_encoder.encode_face(r"D:\Projects\Pycharm Projects\PES-Edit-Face-Maker\results\new model\yamga.jpg")]
+    model = load_model('modelSigmoid.h5')
     prediction = list(model.predict(encoding))
     for i in range(len(prediction)):
         raw_val = prediction[i]
