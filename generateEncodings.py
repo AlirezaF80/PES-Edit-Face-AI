@@ -22,7 +22,7 @@ def export_encodings(encodings, file_path):
 
 def generate_encodings(images_glob):
     encodings = {}
-    for img_path in tqdm(glob.glob(images_dir)):
+    for img_path in tqdm(glob.glob(images_glob)):
         player_id = img_path.split('\\')[-1][:-4]
         encodings[player_id] = face_encoder.encode_face(img_path)
     return encodings

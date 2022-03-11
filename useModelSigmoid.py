@@ -30,11 +30,13 @@ appearance_items = csv_file[0][4:]
 
 if __name__ == '__main__':
     encoding = [
-        face_encoder.encode_face(r"D:\Projects\Pycharm Projects\PES-Edit-Face-Maker\results\new model\yamga.jpg")]
+        face_encoder.encode_face(r"D:\Projects\Pycharm Projects\PES-Edit-Face-Maker\results\sigmoid model\yamga.jpg")]
     model = load_model('modelSigmoid.h5')
     prediction = list(model.predict(encoding))
     for i in range(len(prediction)):
-        raw_val = prediction[i]
+        raw_val = prediction[i][0][0]
         scaled_val = scale_from_sigmoid(raw_val, values_range[appearance_items[i]][0],
                                         values_range[appearance_items[i]][1])
-        print(appearance_items[i].strip(), scaled_val)
+        scaled_val = round(scaled_val, 1)
+        print(appearance_items[i].strip(), scaled_val,
+              f'{values_range[appearance_items[i]][0]} : {values_range[appearance_items[i]][1]}')
