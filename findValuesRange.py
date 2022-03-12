@@ -17,4 +17,4 @@ if __name__ == '__main__':
     for i in range(len(appearances['Id'])):
         all_values = [appearances[key][i] for key in appearances if key != 'Id']
         min_max_values[appearances['Id'][i]] = (min(all_values), max(all_values))
-    save_json(min_max_values, 'values_range.json')
+    save_json(min_max_values, 'items_val_range.json')

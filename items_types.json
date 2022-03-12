@@ -1,0 +1,262 @@
+{
+  "SkinColour": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "HeadLength": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "HeadWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "HeadDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "FaceHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "FaceSize": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperEyelidType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "BottomEyelidType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "EyeHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "HorizontalEyePosition": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "IrisColour": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "PupilSize": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperEyelidHt.(Inner)": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperEyelidWd.(Inner)": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperEyelidHt.(Outer)": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperEyelidWd.(Outer)": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "InnerEyeHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "InnerEyePosition": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyeCornerHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "OuterEyePosition": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "BottomEyelidHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyeDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "Forehead": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "EyebrowType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "EyebrowThickness": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowStyle": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowDensity": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowColourR": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowColourG": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowColourB": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "InnerEyebrowHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "BrowWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "OuterEdyebrowHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "TempleWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EyebrowDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "NoseType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "LaughterLines": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "NoseHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "NostrilWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "NoseWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "NoseTipDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "NoseDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "UpperLipType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "LowerLipType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "MouthPosition": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "LipSize": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "LipWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "MouthCornerHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "MouthDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "FacialHairType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "FacialHairColourR": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "FacialHairColourG": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "FacialHairColourB": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "Thickness": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "CheekType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "NeckLineType": {
+    "activation": "softmax",
+    "loss": "categorical_crossentropy"
+  },
+  "Cheekbones": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "ChinHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "ChinWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "JawHeight": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "Jawline": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "ChinDepth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EarLength": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EarWidth": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  },
+  "EarAngle": {
+    "activation": "sigmoid",
+    "loss": "mse"
+  }
+}

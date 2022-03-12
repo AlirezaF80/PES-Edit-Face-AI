@@ -18,7 +18,7 @@ class FaceEncoder:
         if self._is_models_built:
             return
         self._detector = FaceDetector.build_model(self._detector_backend)  # set opencv, ssd, dlib, mtcnn or retinaface
-        self._analyze_models = {'age': DeepFace.build_model('Age')}
+        self._analyze_models = {'race': DeepFace.build_model('Race')}
         self._model = DeepFace.build_model(self._model_name)
         self._is_models_built = True
 
@@ -63,8 +63,8 @@ class FaceEncoder:
     def analyze_face(self, img_path):
         self._build_models()
 
-        analyzation = DeepFace.analyze(img_path, actions=['age'], models=self._analyze_models, enforce_detection=False,
-                                       detector_backend=self._detector_backend, prog_bar=False)
+        analyzation = DeepFace.analyze(img_path, actions=list(self._analyze_models.keys()), models=self._analyze_models,
+                                       enforce_detection=False, detector_backend=self._detector_backend, prog_bar=False)
         return analyzation
 
     @property
