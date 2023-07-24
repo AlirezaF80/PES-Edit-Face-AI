@@ -1,4 +1,4 @@
-# PES Edit Face Maker
+# PES Edit Face AI
 
 This project aims to provide a face-making tool for customizing player faces in PES (Pro Evolution Soccer) game based on an image, using deep learning.
 
