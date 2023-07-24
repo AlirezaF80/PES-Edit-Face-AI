@@ -15,3 +15,10 @@ These embeddings are then used to train a custom deep learning model capable of 
 - **Training the Model**: The project provides functionality to train the custom deep learning model using prepared training data. The data consists of facial embeddings and corresponding output labels for the facial attributes. The model is trained with a custom loss function called custom_loss to optimize the predictions.
 
 - **Face Customization in PES**: With the trained model and facial embeddings, players can use the tool to customize player faces within the "PES" soccer video game. Instead of manually adjusting sliders and values in the game's Edit Menu, the tool automatically generates face attributes based on the provided facial embeddings.
+
+## Previews
+
+![Preview1](/Images/preview%20(1).jpg)
+![Preview2](/Images/preview%20(2).jpg)
+![Preview3](/Images/preview%20(3).jpg)
+![Preview4](/Images/preview%20(4).jpg)
